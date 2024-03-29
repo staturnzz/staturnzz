@@ -3,7 +3,7 @@
 </div>
 
 ```c
-struct about me = {
+struct about_me = {
      .name = "staturnz",
      .languages = {"C", "Objective-C", "arm64 asm", "C++", "Swift"},
      .website = "https://staturnz.com",
