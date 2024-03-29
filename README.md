@@ -3,12 +3,11 @@
 </div>
 
 ```c
-struct about_me = {
-     .name = "staturnz",
-     .languages = {"C", "Objective-C", "arm64 asm", "C++", "Swift"},
-     .website = "https://staturnz.com",
-     .x = "@staturnzdev",
-     .github = "staturnzz",
-     .mastodon = "@staturnz@procursus.social"
+NSDictionary *about_me = @{
+    @"name" : @"staturnz",
+    @"languages" : @[@"Objective-C", @"C", @"arm64 asm", @"C++", @"Zig"],
+    @"website" : @"https://staturnz.com",
+    @"x" : @"@staturnzdev",
+    @"github" : @"staturnzz",
 };
 ```
