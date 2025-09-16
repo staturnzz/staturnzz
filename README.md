@@ -5,7 +5,7 @@
 ```nasm
 section	.aboutme
 name:   .asciz "staturnz"
-site:    .asciz "https://staturnz.com"
+site:   .asciz "https://staturnz.com"
 x:      .asciz "@staturnzdev"
 github  .asciz "staturnzz"
 ```
